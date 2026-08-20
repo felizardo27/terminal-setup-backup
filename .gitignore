@@ -1,0 +1,7 @@
+# Snapshots are local recovery backups. Never commit them: even with the
+# exclusions in the script, configuration files can contain personal paths or
+# service-specific settings.
+/snapshots/
+
+# macOS metadata
+.DS_Store
